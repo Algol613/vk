@@ -12,6 +12,7 @@ public class Post {
         private SharedInfo sharedInfo;
         private ViewInfo viewsInfo;
         private MoreInfo moreInfo;
+        private String postType;
 
     public int getPostId() {
         return postId;
@@ -101,4 +102,12 @@ public class Post {
         this.moreInfo = moreInfo;
     }
 
+
+    public String getPostType() {
+        return postType;
+    }
+
+    public void setPostType(String postType) {
+        this.postType = postType;
+    }
 }

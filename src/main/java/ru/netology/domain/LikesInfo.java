@@ -4,6 +4,8 @@ public class LikesInfo {
 
     private int count;
     private int userLike;
+    private boolean like;
+    private boolean canLike;
 
 
     public LikesInfo(int count, int userLike) {
@@ -24,5 +26,22 @@ public class LikesInfo {
 
     public void setUserLike(int userLike) {
         this.userLike = userLike;
+    }
+
+
+    public boolean isLike() {
+        return like;
+    }
+
+    public void setLike(boolean like) {
+        this.like = like;
+    }
+
+    public boolean isCanLike() {
+        return canLike;
+    }
+
+    public void setCanLike(boolean canLike) {
+        this.canLike = canLike;
     }
 }
