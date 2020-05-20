@@ -1,18 +1,19 @@
 package ru.netology.domain;
 
 public class Post {
-        private int postId;
-        private int userId;
-        private String namePost;
-        private String textPost;
-        private String picturePost;
-        private int date;
-        private LikesInfo likeInfo;
-        private CommentsInfo commentsInfo;
-        private SharedInfo sharedInfo;
-        private ViewInfo viewsInfo;
-        private MoreInfo moreInfo;
-        private String postType;
+    private int postId;
+    private int userId;
+    private int fromId;
+    private String name;
+    private String text;
+    private String picture;
+    private int date;
+    private LikesInfo likeInfo;
+    private CommentsInfo commentsInfo;
+    private SharedInfo sharedInfo;
+    private ViewInfo viewsInfo;
+    private MoreInfo moreInfo;
+    private String postType;
 
     public int getPostId() {
         return postId;
@@ -22,36 +23,44 @@ public class Post {
         this.postId = postId;
     }
 
-    public int getUserId(){
+    public int getUserId() {
         return userId;
     }
 
     public void setUserId(int UserId) {
-        this.userId= UserId;
+        this.userId = UserId;
     }
 
-    public String getNamePost(){
-        return namePost;
+    public int getFromId() {
+        return fromId;
     }
 
-    public void setNamePost(String namePost) {
-        this.namePost = namePost;
+    public void setFromId(int fromId) {
+        this.fromId = fromId;
     }
 
-    public String getTextPostPost(){
-        return textPost;
+    public String getName() {
+        return name;
     }
 
-    public void setTextPostPost(String textPost) {
-        this.textPost = textPost;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public String getPicturePost(){
-        return picturePost;
+    public String getText() {
+        return text;
     }
 
-    public void setPicturePost(String picturePost) {
-        this.picturePost = picturePost;
+    public void setText(String text) {
+        this.text = text;
+    }
+
+    public String getPicture() {
+        return picture;
+    }
+
+    public void setPicture(String picture) {
+        this.picture = picture;
     }
 
     public int getDate() {

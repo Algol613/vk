@@ -1,6 +1,6 @@
 package ru.netology.domain.attachment;
 
 
-class VideoAttachment {
-    private VideoAttachment[] attachment;
+class AttachmentVideo {
+    private AttachmentVideo[] attachment;
 }
