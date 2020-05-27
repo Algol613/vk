@@ -27,8 +27,8 @@ public class Post {
         return userId;
     }
 
-    public void setUserId(int UserId) {
-        this.userId = UserId;
+    public void setUserId(int userId) {
+        this.userId = userId;
     }
 
     public int getFromId() {
